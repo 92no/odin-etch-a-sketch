@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: #191f24;
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+  background-color: #e0e0e0;
+}
+
+.sketchContainer {
+  display: flex;
+  flex-wrap: wrap;
+  height: 800px;
+  width: 800px;
+  background-color: #e0e0e0;
+  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+}
+
+.sketchDiv {
+  background-color: #e0e0e0;
+}
+
+.colorChange {
+  background-color: #191f24;
+}
