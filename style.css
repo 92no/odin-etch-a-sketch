@@ -3,11 +3,21 @@
   margin: 0;
   box-sizing: border-box;
   color: #191f24;
+  font-family: "Madimi One";
+}
+
+html {
+  display: flex;
+  justify-content: center;
 }
 
 body {
   display: flex;
   flex-direction: row;
+  gap: 80px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
   background-color: #e0e0e0;
 }
 
@@ -26,4 +36,21 @@ body {
 
 .colorChange {
   background-color: #191f24;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+button {
+  font-size: 24px;
+  background-color: #e0e0e0;
+  border: 2px solid #191f24;
+  border-radius: 8px;
+  margin-bottom: 20px;
 }
